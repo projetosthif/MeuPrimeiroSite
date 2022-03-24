@@ -1,6 +1,27 @@
 body{
 background-color:#E0FFFF;
 }
-img{
-width:350;
+.img_topo{
+    width: 100%;
+    height: 30%;
+}
+.img_corpo{
+    width: 20%;
+}
+.container{
+    width: 80%;
+    margin:auto;
+}
+h1{
+    text-align: center;
+    font-size: 2.5em;
+}
+p{
+    font-size: 1.5em;
+    text-align: justify;
+    text-indent: 550px;
+}
+h2{
+    font-size: 2.0em;
+    text-indent: 550px;
 }
