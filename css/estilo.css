@@ -1,5 +1,5 @@
 body{
-background-color:#E0FFFF;
+background-color:blanchedalmond;
 }
 .img_topo{
     width: 100%;
@@ -15,6 +15,7 @@ background-color:#E0FFFF;
 h1{
     text-align: center;
     font-size: 2.5em;
+    color: chocolate;
 }
 p{
     font-size: 1.5em;
