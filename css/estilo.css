@@ -14,15 +14,35 @@ background-color:blanchedalmond;
 }
 h1{
     text-align: center;
-    font-size: 2.5em;
-    color: chocolate;
+    font-size: 2.0em;
+    color: #8B4513;
+    padding: 1%;
 }
 p{
     font-size: 1.5em;
-    text-align: justify;
-    text-indent: 550px;
+    line-height: 1.5em;
+    text-align: center;
 }
 h2{
     font-size: 2.0em;
-    text-indent: 550px;
+    padding: 1%;
+    text-align: center;
+}
+.menu{
+    background-color: #FFDEAD;
+    padding: 1%;
+}
+.itens_menu{
+    text-align: center;
+    font-size: 1.2em;
+}
+.logo{
+    font-size: 1.5em;
+}
+figure{
+    text-align: center;
+}
+footer{
+    background-color: #FFDEAD;
+    padding: 1%;
 }
