@@ -58,7 +58,15 @@ footer{
     font-size: 1.5em;
 }
 .musica{
-    text-align: center;
-    font-size: 1em;
+    text-align:center;
+    font-size: 1.5em;
 }
-
+.capa_meu_caos{
+    float: left;
+    width: 20%;
+}
+.desenho_meu_caos{
+    float: right;
+    width: 15;
+    padding-bottom: 5%;
+}
