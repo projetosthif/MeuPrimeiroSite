@@ -45,4 +45,20 @@ figure{
 footer{
     background-color: #FFDEAD;
     padding: 1%;
+    margin-top: 2%;
+    font-size: 0.7em;
 }
+.center{
+    padding-top: 2%;
+}
+.link_meu_caos{
+    padding: 2%;
+}
+.titulo_meu_caos{
+    font-size: 1.5em;
+}
+.musica{
+    text-align: center;
+    font-size: 1em;
+}
+
