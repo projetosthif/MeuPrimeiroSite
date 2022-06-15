@@ -58,6 +58,14 @@ footer{
     text-align:center;
     font-size: 1.5em;
 }
+.musica a:link{
+    color: black;
+    text-decoration: none;
+}
+.musica a:hover{
+    color: black;
+    background-color: rgb(243, 201, 164);
+}
 .capa_meu_caos{
     float: left;
     width: 20%;
@@ -67,19 +75,32 @@ footer{
     width: 15;
     padding-bottom: 5%;
 }
-.botao{
-    background-color: #e7e7e7; color: black; /* Gray */
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+.botao {
+    width: 130px;
+    height: 20px;
+    background-color:  rgb(248, 207, 171);
+    padding: 1%;
+    padding-bottom: 2%;
+    margin: auto;  
+    margin-bottom: 2%; 
+    margin-top: 2%;
 }
-.itens_menu a:link{
-    color:darkred
+.botao a:link, .botao a:visited {
+    color:	#8B4513;
+    text-decoration:none;
+    font-weight: bolder;
 }
-.itens_menu a:hover{
+.botao a:hover{
     color: black;
-    background-color: rgb(244,164,96);
+    font-weight: bold;
+
 }
+.itens_menu a:link, .itens_menu a:visited, .cliqueaqui a:link{
+    color: rgb(114, 1, 1);
+}
+.itens_menu a:hover, .cliqueaqui a:hover{
+    color: black;
+    background-color: rgb(243, 201, 164);
+}
+
+
