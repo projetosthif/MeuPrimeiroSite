@@ -102,5 +102,24 @@ footer{
     color: black;
     background-color: rgb(243, 201, 164);
 }
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td{
+    border: 1px solid #fcb36e;
+    text-align: left;
+    padding: 8px;
+}
+th{
+    border: 1px solid #fcb36e;
+    text-align: left;
+    padding: 8px;
+    color: black;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #e7a0657e;
+}
 
 
