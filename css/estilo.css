@@ -17,16 +17,19 @@ h1{
     font-size: 2.0em;
     color: #8B4513;
     padding: 1%;
+    font-family: 'Cutive Mono', monospace;
 }
 p{
     font-size: 1.5em;
     line-height: 1.5em;
     text-align: center;
+    font-family: 'Cutive Mono', monospace;
 }
 h2{
     font-size: 2.0em;
     padding: 1%;
     text-align: center;
+    font-family: 'Cutive Mono', monospace;
 }
 .menu{
     background-color: #FFDEAD;
@@ -35,6 +38,7 @@ h2{
 .itens_menu{
     text-align: center;
     font-size: 1.2em;
+    font-family: 'Cutive Mono', monospace;
 }
 .logo{
     font-size: 1.5em;
