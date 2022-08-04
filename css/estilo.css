@@ -108,12 +108,15 @@ footer{
 }
 table {
     border-collapse: collapse;
+    text-align: center;
     width: 100%;
 }
 td{
     border: 1px solid #fcb36e;
     text-align: left;
     padding: 8px;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 1.3em;
 }
 th{
     border: 1px solid #fcb36e;
@@ -121,9 +124,21 @@ th{
     padding: 8px;
     color: black;
     font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
 }
 tr:nth-child(even) {
     background-color: #e7a0657e;
 }
+audio{
+    width: 60%;
+}
+td:first-child{
+    width: 40%;
+}
+td:first-child+td{
+    width: 60%;
+}
+
 
 
