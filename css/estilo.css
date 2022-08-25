@@ -20,10 +20,11 @@ h1{
     font-family: 'Cutive Mono', monospace;
 }
 p{
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.5em;
     text-align: center;
     font-family: 'Cutive Mono', monospace;
+    font-weight: bold;
 }
 h2{
     font-size: 2.0em;
@@ -50,7 +51,9 @@ footer{
     background-color: #FFDEAD;
     padding: 1%;
     margin-top: 2%;
-    font-size: 0.7em;
+    font-size: 0.9em;
+    font-weight: bold;
+    
 }
 .center{
     padding-top: 2%;
@@ -61,6 +64,7 @@ footer{
 .musica{
     text-align:center;
     font-size: 1.5em;
+    font-weight: bold;
 }
 .musica a:link{
     color: black;
@@ -88,15 +92,18 @@ footer{
     margin: auto;  
     margin-bottom: 2%; 
     margin-top: 2%;
+    border-radius: 15px;
 }
 .botao a:link, .botao a:visited {
     color:	#8B4513;
     text-decoration:none;
     font-weight: bolder;
+    
 }
 .botao a:hover{
     color: black;
     font-weight: bold;
+    border-radius: 15px;
 
 }
 .itens_menu a:link, .itens_menu a:visited, .cliqueaqui a:link{
@@ -114,9 +121,11 @@ table {
 td{
     border: 1px solid #fcb36e;
     text-align: left;
-    padding: 8px;
-    font-family: 'Arima Madurai', cursive;
+    padding: 10px;
+    font-family: 'Cutive Mono', monospace;
     font-size: 1.3em;
+    font-weight: bold;
+
 }
 th{
     border: 1px solid #fcb36e;
@@ -144,8 +153,9 @@ input[type=text], select, [type=tel], [type=email] {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 10px;
     resize: vertical;
+    font-family: 'Cutive Mono', monospace;
 }
   
 label {
@@ -160,7 +170,8 @@ input[type=submit]:hover {
 .formulario {
     border-radius: 5px;
     background-color: #FFDEAD;
-    padding: 10%;
+    padding: 7%;
+    padding-bottom: 0.5%;
 }
   
 .col-25 {
@@ -168,14 +179,14 @@ input[type=submit]:hover {
     width: 25%;
     margin-top: 6px;
     font-family: 'Bebas Neue', cursive;
-    font-weight: bold;
+    font-size: 1.5em;
 }
   
 .col-75 {
     float: left;
-    width: 75%;
+    width: 60%;
     margin-top: 6px;
-    font-family: 'Bebas Neue', cursive;
+    border-radius: 10%;
 }
 
 form{
@@ -193,14 +204,30 @@ input[type=submit] {
     float: right;
     margin-top: 2%;
     font-family: 'Bebas Neue', cursive;
-    font-weight: bold;
+    margin-top: 3%;
+    margin-right: 12%;
+    font-size: 1.3em;
   }
   
 input[type=submit]:hover {
     background-color: rgb(238, 148, 70);
     font-family: 'Bebas Neue', cursive;
     font-weight: bold;
+    font-size: 1.3em;
 }
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 
 
 
