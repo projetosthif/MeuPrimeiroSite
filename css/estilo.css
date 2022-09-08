@@ -1,12 +1,35 @@
+
+html{
+    scroll-behavior: smooth;
+}
 body{
 background-color:blanchedalmond;
+}
+header{
+    background-color: #FFDEAD;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+.fixo{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
 }
 .img_topo{
     width: 100%;
     height: 30%;
+    margin-top: 18%;
 }
 .img_corpo{
     width: 20%;
+}
+.img_logo{
+    width: 10%;
+}
+.logo{
+    text-align: center;
 }
 .container{
     width: 80%;
@@ -32,14 +55,20 @@ h2{
     text-align: center;
     font-family: 'Cutive Mono', monospace;
 }
-.menu{
-    background-color: #FFDEAD;
-    padding: 1%;
-}
 .itens_menu{
     text-align: center;
-    font-size: 1.2em;
+    font-size: 2em;
     font-family: 'Cutive Mono', monospace;
+    
+}
+.itens_menu a:link, .itens_menu a:visited, .cliqueaqui a:link{
+    color: rgb(114, 1, 1);
+    text-decoration: none;
+}
+.itens_menu a:hover, .cliqueaqui a:hover{
+    color: black;
+    background-color: rgb(243, 201, 164);
+    text-decoration: none;
 }
 .logo{
     font-size: 1.5em;
@@ -60,6 +89,9 @@ footer{
 }
 .titulo_meu_caos{
     font-size: 1.5em;
+}
+.meucaos{
+    padding-top: 23%;
 }
 .musica{
     text-align:center;
@@ -106,13 +138,7 @@ footer{
     border-radius: 15px;
 
 }
-.itens_menu a:link, .itens_menu a:visited, .cliqueaqui a:link{
-    color: rgb(114, 1, 1);
-}
-.itens_menu a:hover, .cliqueaqui a:hover{
-    color: black;
-    background-color: rgb(243, 201, 164);
-}
+
 table {
     border-collapse: collapse;
     text-align: center;
@@ -173,6 +199,9 @@ input[type=submit]:hover {
     padding: 7%;
     padding-bottom: 0.5%;
 }
+.contato{
+    padding-top: 30%;
+}
   
 .col-25 {
     float: left;
@@ -219,6 +248,11 @@ input[type=submit]:hover {
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
+    }
+}
+@media screen and (min-width: 400px){
+    header{
+        flex-direction: row;
     }
 }
 
