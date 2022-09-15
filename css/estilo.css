@@ -250,11 +250,33 @@ input[type=submit]:hover {
       margin-top: 0;
     }
 }
-@media screen and (min-width: 400px){
+@media screen and (min-width: 601px){
     header{
         flex-direction: row;
+    } 
+    .itens_menu{
+        position: absolute;
+        width: 70%;
+        margin-left: 25%;
+        padding-top: 3%;
+    }
+    .logo{
+        width: 30%;
+        text-align: left;
+        
+    }
+    .itens_menu ul li{
+        display: inline;
+        margin-left: 2%;
+        font-size: 0.9em;
+
+    }
+    .img_logo{
+        width: 30%;
+        padding-left: 2%;
     }
 }
+
 
   .row:after {
     content: "";
